@@ -1,2 +1,4 @@
 base
+feature work 1
+feature work 2
 bug fix
