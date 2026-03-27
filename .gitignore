@@ -1,1 +1,3 @@
 task-2/secret.txt
+*.log
+temp/
