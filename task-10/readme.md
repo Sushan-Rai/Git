@@ -130,3 +130,12 @@
     bugfix
     feature
     main
+
+    - Forced Push (How & Why to Handle Carefully)
+    Force pushing overwrites the remote branch history, which can delete or rewrite commits that others may already be using. It should be used carefully because it can break teammates’ work and cause confusion if not communicated properly.
+
+    - git reflog (Why It’s a Lifesaver)
+    git reflog keeps a record of all recent HEAD changes, even for commits that seem “lost” after a reset or rebase. This makes it possible to recover deleted or overwritten commits and restore your work quickly.
+
+    - Best Practices for Team Collaboration
+    Always use force push only on personal or feature branches and inform your team before doing it to avoid conflicts. Prefer git push --force-with-lease and use pull requests to ensure safe, reviewed changes before merging.
